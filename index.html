@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery App - Categories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Gallery</h1>
+            <p>Browse images by category</p>
+        </header>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+            <button class="filter-btn" data-filter="food">Food</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery">
+            <!-- Nature Images -->
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop" alt="Mountain">
+                <div class="overlay">
+                    <h3>Mountain</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=300&h=300&fit=crop" alt="Forest">
+                <div class="overlay">
+                    <h3>Forest</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=300&h=300&fit=crop" alt="Ocean">
+                <div class="overlay">
+                    <h3>Ocean</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1469022563149-aa64dbd37dae?w=300&h=300&fit=crop" alt="Sunset">
+                <div class="overlay">
+                    <h3>Sunset</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+
+            <!-- City Images -->
+            <div class="gallery-item" data-category="city">
+                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=300&h=300&fit=crop" alt="New York">
+                <div class="overlay">
+                    <h3>New York</h3>
+                    <p>City</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="city">
+                <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=300&h=300&fit=crop" alt="Street">
+                <div class="overlay">
+                    <h3>Street</h3>
+                    <p>City</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="city">
+                <img src="https://images.unsplash.com/photo-1442512595331-e89e1b51b5b5?w=300&h=300&fit=crop" alt="Downtown">
+                <div class="overlay">
+                    <h3>Downtown</h3>
+                    <p>City</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="city">
+                <img src="https://images.unsplash.com/photo-1480559080352-91305a183ebc?w=300&h=300&fit=crop" alt="Highway">
+                <div class="overlay">
+                    <h3>Highway</h3>
+                    <p>City</p>
+                </div>
+            </div>
+
+            <!-- Animals Images -->
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1444464666175-1cff94d8e4b0?w=300&h=300&fit=crop" alt="Wolf">
+                <div class="overlay">
+                    <h3>Wolf</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1446899573992-b2266bc7c817?w=300&h=300&fit=crop" alt="Lion">
+                <div class="overlay">
+                    <h3>Lion</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1450891130854-7db61a78ad0c?w=300&h=300&fit=crop" alt="Panda">
+                <div class="overlay">
+                    <h3>Panda</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=300&h=300&fit=crop" alt="Eagle">
+                <div class="overlay">
+                    <h3>Eagle</h3>
+                    <p>Animals</p>
+                </div>
+            </div>
+
+            <!-- Food Images -->
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=300&h=300&fit=crop" alt="Pizza">
+                <div class="overlay">
+                    <h3>Pizza</h3>
+                    <p>Food</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=300&fit=crop" alt="Sushi">
+                <div class="overlay">
+                    <h3>Sushi</h3>
+                    <p>Food</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1504674900769-8adf1d5a8d7e?w=300&h=300&fit=crop" alt="Burger">
+                <div class="overlay">
+                    <h3>Burger</h3>
+                    <p>Food</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1565958011504-98d6efcebc90?w=300&h=300&fit=crop" alt="Dessert">
+                <div class="overlay">
+                    <h3>Dessert</h3>
+                    <p>Food</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for enlarged view -->
+    <div class="modal" id="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
